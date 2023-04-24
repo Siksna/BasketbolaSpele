@@ -6,7 +6,7 @@
 (šajā laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību 
 attēlošanu teksta laukā (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!”) (2p)
 
--[ ] 2. Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams 
+-[x] 2. Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams 
 apģērbt (2p)
 
 -[ ] 3. Izveidotas vairākas apģērbu un aprīkojuma kategorijas (bikses, zābaki, cepures, cimdi, amuleti, 
