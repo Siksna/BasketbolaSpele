@@ -5,7 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AtteluParadisana : MonoBehaviour {
-	
+
+	public GameObject Krekli;
+	public GameObject Shorti;
+	public GameObject Kurpes;
 	public GameObject mainigaisAttels;
 	public Sprite[] atteluMasivs;
 	public GameObject IzmeraSlaideris;
@@ -28,12 +31,37 @@ public class AtteluParadisana : MonoBehaviour {
 			= atteluMasivs[2];
 	}
 
-	public void mainitLielumu()
+	/*public void mainitAugstumu()
 	{
 		float pasreizejaisIzmers =
 			IzmeraSlaideris.GetComponent<Slider>().value;
 		mainigaisAttels.transform.localScale =
 			new Vector2(1f* pasreizejaisIzmers,
 				1f*pasreizejaisIzmers);
+	}
+
+	public void mainitPlatumu()
+	{
+		float pasreizejaisIzmers =
+			IzmeraSlaideris.GetComponent<Slider>().value;
+		mainigaisAttels.transform.localScale =
+			new Vector2(1f* pasreizejaisIzmers,
+				1f*pasreizejaisIzmers);
+	}*/
+
+
+	public void KreklaAtteli(bool vertiba)
+	{
+		Krekli.SetActive(vertiba);
+	}
+
+	public void ShortuAtteli(bool vertiba)
+	{
+		Shorti.SetActive(vertiba);
+	}
+
+	public void KurpjuAtteli(bool vertiba)
+	{
+		Kurpes.SetActive(vertiba);
 	}
 }

@@ -2,7 +2,7 @@
 
 ![](https://pluspng.com/img-png/nba-logo-vector-png-nba-logo-png-2400.png)
 
--[ ] 1. Pielietojot teksta ievades laukus (2.gab.) iespējams ievadīt apģērbjamā tēla vārdu un vecumu
+-[x] 1. Pielietojot teksta ievades laukus (2.gab.) iespējams ievadīt apģērbjamā tēla vārdu un vecumu
 (šajā laukā iespējams ievadīt tikai skaitļus), pogas nospiešana nodrošina ievadīto vērtību 
 attēlošanu teksta laukā (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!”) (2p)
 
@@ -16,7 +16,7 @@ u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt at
 
 -[ ] 5. Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) (1p)
 
--[ ] 6. Ievietota scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
+-[x] 6. Ievietota scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
 (1p)
 
 -[ ] 7. Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu (1p)

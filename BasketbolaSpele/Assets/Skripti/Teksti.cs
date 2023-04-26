@@ -16,12 +16,11 @@ public class Teksti : MonoBehaviour {
 
 	public void UzglabatTekstu(){
 
-		do{
 			vecums=int.Parse(VecumaIevade.GetComponent<Text>().text);
-		}while(vecums<18 || vecums>45);
 		iesauka = IesaukasIevade.GetComponent<Text> ().text;
 		tekstaAttelosana.GetComponent<Text>().text = 
 			iesauka+" ir "+vecums+" gadus vecs";
 	}
+
 }
 
