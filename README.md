@@ -9,7 +9,7 @@ attēlošanu teksta laukā (Piemēram: „Supervaronis Oskars ir 19 gadus vecs!�
 -[x] 2. Pielietojot izkrītošā saraksta pogu, iespējams izvēlēties vismaz divus tēlus, kurus iespējams 
 apģērbt (2p)
 
--[ ] 3. Izveidotas vairākas apģērbu un aprīkojuma kategorijas (bikses, zābaki, cepures, cimdi, amuleti, 
+-[x] 3. Izveidotas vairākas apģērbu un aprīkojuma kategorijas (bikses, zābaki, cepures, cimdi, amuleti, 
 u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt attiecīgos elementus (1p)
 
 -[ ] 4. Izvēlēto aprīkojumu pēc drag and drop principa iespējams pārvietot un nolikt izvēlētajā vietā (1p)
