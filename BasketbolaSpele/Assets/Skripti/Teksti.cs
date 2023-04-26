@@ -16,7 +16,8 @@ public class Teksti : MonoBehaviour {
 
 	public void UzglabatTekstu(){
 
-			vecums=int.Parse(VecumaIevade.GetComponent<Text>().text);
+			vecums = int.Parse (VecumaIevade.GetComponent<Text> ().text);
+		
 		iesauka = IesaukasIevade.GetComponent<Text> ().text;
 		tekstaAttelosana.GetComponent<Text>().text = 
 			iesauka+" ir "+vecums+" gadus vecs";
