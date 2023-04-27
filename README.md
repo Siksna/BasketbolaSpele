@@ -12,7 +12,7 @@ apģērbt (2p)
 -[x] 3. Izveidotas vairākas apģērbu un aprīkojuma kategorijas (bikses, zābaki, cepures, cimdi, amuleti, 
 u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt attiecīgos elementus (1p)
 
--[ ] 4. Izvēlēto aprīkojumu pēc drag and drop principa iespējams pārvietot un nolikt izvēlētajā vietā (1p)
+-[x] 4. Izvēlēto aprīkojumu pēc drag and drop principa iespējams pārvietot un nolikt izvēlētajā vietā (1p)
 
 -[ ] 5. Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) (1p)
 

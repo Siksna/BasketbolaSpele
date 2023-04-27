@@ -17,12 +17,13 @@ public class AtteluParadisana : MonoBehaviour {
 	public Sprite[] atteluMasivsKrekliem;
 	public Sprite[] atteluMasivsShortiem;
 	public Sprite[] atteluMasivsKurpem;
-	public GameObject IzmeraSlaideris;
+	public GameObject IzmeraSlaiderisY;
+    public GameObject IzmeraSlaiderisX;
 
 
 
 
-	public void Izkritosais(int indekss)
+    public void Izkritosais(int indekss)
 	{
 		if(indekss == 0)
 			mainigaisAttels.GetComponent<Image>().sprite 
@@ -79,11 +80,11 @@ public class AtteluParadisana : MonoBehaviour {
 			= atteluMasivsKurpem[2];
 	}
 
-	/*public void mainitAugstumu()
+	public void mainitAugstumu()
 	{
 		float pasreizejaisIzmers =
-			IzmeraSlaideris.GetComponent<Slider>().value;
-		mainigaisAttels.transform.localScale =
+			IzmeraSlaiderisY.GetComponent<Slider>().value;
+		Krekli.transform.localScale =
 			new Vector2(1f* pasreizejaisIzmers,
 				1f*pasreizejaisIzmers);
 	}
@@ -91,11 +92,11 @@ public class AtteluParadisana : MonoBehaviour {
 	public void mainitPlatumu()
 	{
 		float pasreizejaisIzmers =
-			IzmeraSlaideris.GetComponent<Slider>().value;
-		mainigaisAttels.transform.localScale =
-			new Vector2(1f* pasreizejaisIzmers,
+			IzmeraSlaiderisX.GetComponent<Slider>().value;
+		Krekli.transform.localScale =
+			new Vector2(1f*pasreizejaisIzmers,
 				1f*pasreizejaisIzmers);
-	}*/
+	}
 
 
 	public void KreklaAtteli(bool vertiba)
