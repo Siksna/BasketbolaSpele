@@ -14,11 +14,11 @@ u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt at
 
 -[x] 4. Izvēlēto aprīkojumu pēc drag and drop principa iespējams pārvietot un nolikt izvēlētajā vietā (1p)
 
--[ ] 5. Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) (1p)
+-[x] 5. Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) (1p)
 
 -[x] 6. Ievietota scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem
 (1p)
 
--[ ] 7. Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu (1p)
+-[x] 7. Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu (1p)
 
--[ ] 8. Projekts izstrādāts noteiktajā termiņā un tā izstrāde ir veikta rūpīgi (1p)
+-[x] 8. Projekts izstrādāts noteiktajā termiņā un tā izstrāde ir veikta rūpīgi (1p)
