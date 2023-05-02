@@ -9,6 +9,7 @@ public class AtteluParadisana : MonoBehaviour {
 	public GameObject Krekli;
 	public GameObject Shorti;
 	public GameObject Kurpes;
+	public GameObject Lebrons;
 	public GameObject mainigaisAttels;
 	public GameObject mainigaisAttelsKrekliem;
 	public GameObject mainigaisAttelsShortiem;
@@ -23,6 +24,8 @@ public class AtteluParadisana : MonoBehaviour {
 	public GameObject IzmeraSlaiderisSortiemX;
 	public GameObject IzmeraSlaiderisKurpemY;
 	public GameObject IzmeraSlaiderisKurpemX;
+	public GameObject IzmeraSlaiderisSpeletajamY;
+	public GameObject IzmeraSlaiderisSpeletajamX;
 
 
 
@@ -123,6 +126,21 @@ public class AtteluParadisana : MonoBehaviour {
 			new Vector2(1f* pasreizejaisIzmersX,pasreizejaisIzmersY);
 
 		Kurpes.transform.localScale =
+			new Vector2(pasreizejaisIzmersX,
+				1f*pasreizejaisIzmersY);
+
+	}
+
+	public void mainitIzmeruSpeletajs()
+	{
+		float pasreizejaisIzmersY =
+			IzmeraSlaiderisSpeletajamY.GetComponent<Slider>().value;
+		float pasreizejaisIzmersX =
+			IzmeraSlaiderisSpeletajamX.GetComponent<Slider>().value;
+		Lebrons.transform.localScale =
+			new Vector2(1f* pasreizejaisIzmersX,pasreizejaisIzmersY);
+
+		Lebrons.transform.localScale =
 			new Vector2(pasreizejaisIzmersX,
 				1f*pasreizejaisIzmersY);
 

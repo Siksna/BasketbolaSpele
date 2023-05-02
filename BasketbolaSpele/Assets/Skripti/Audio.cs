@@ -12,7 +12,6 @@ public class Audio : MonoBehaviour {
 	public AudioSource skana6;
 	public AudioSource skana7;
 	public AudioSource skana8;
-	public AudioSource skana9;
 
 	public void AtskanetPogu1(){
 		skana1.Play ();
