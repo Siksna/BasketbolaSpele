@@ -17,9 +17,12 @@ public class AtteluParadisana : MonoBehaviour {
 	public Sprite[] atteluMasivsKrekliem;
 	public Sprite[] atteluMasivsShortiem;
 	public Sprite[] atteluMasivsKurpem;
-	public GameObject IzmeraSlaiderisY;
-    public GameObject IzmeraSlaiderisX;
-
+	public GameObject IzmeraSlaiderisKrekliemY;
+    public GameObject IzmeraSlaiderisKrekliemX;
+	public GameObject IzmeraSlaiderisSortiemY;
+	public GameObject IzmeraSlaiderisSortiemX;
+	public GameObject IzmeraSlaiderisKurpemY;
+	public GameObject IzmeraSlaiderisKurpemX;
 
 
 
@@ -80,24 +83,50 @@ public class AtteluParadisana : MonoBehaviour {
 			= atteluMasivsKurpem[2];
 	}
 
-	public void mainitAugstumu()
+	public void mainitIzmeruKrekli()
 	{
-		float pasreizejaisIzmers =
-			IzmeraSlaiderisY.GetComponent<Slider>().value;
+		float pasreizejaisIzmersY =
+			IzmeraSlaiderisKrekliemY.GetComponent<Slider>().value;
+		float pasreizejaisIzmersX =
+			IzmeraSlaiderisKrekliemX.GetComponent<Slider>().value;
 		Krekli.transform.localScale =
-			new Vector2(1f* pasreizejaisIzmers,
-				1f*pasreizejaisIzmers);
+			new Vector2(1f* pasreizejaisIzmersX,pasreizejaisIzmersY);
+
+		Krekli.transform.localScale =
+			new Vector2(pasreizejaisIzmersX,
+				1f*pasreizejaisIzmersY);
+	
 	}
 
-	public void mainitPlatumu()
+	public void mainitIzmeruSorti()
 	{
-		float pasreizejaisIzmers =
-			IzmeraSlaiderisX.GetComponent<Slider>().value;
-		Krekli.transform.localScale =
-			new Vector2(1f*pasreizejaisIzmers,
-				1f*pasreizejaisIzmers);
+		float pasreizejaisIzmersY =
+			IzmeraSlaiderisSortiemY.GetComponent<Slider>().value;
+		float pasreizejaisIzmersX =
+			IzmeraSlaiderisSortiemX.GetComponent<Slider>().value;
+		Shorti.transform.localScale =
+			new Vector2(1f* pasreizejaisIzmersX,pasreizejaisIzmersY);
+
+		Shorti.transform.localScale =
+			new Vector2(pasreizejaisIzmersX,
+				1f*pasreizejaisIzmersY);
+
 	}
 
+	public void mainitIzmeruKurpes()
+	{
+		float pasreizejaisIzmersY =
+			IzmeraSlaiderisKurpemY.GetComponent<Slider>().value;
+		float pasreizejaisIzmersX =
+			IzmeraSlaiderisKurpemX.GetComponent<Slider>().value;
+		Kurpes.transform.localScale =
+			new Vector2(1f* pasreizejaisIzmersX,pasreizejaisIzmersY);
+
+		Kurpes.transform.localScale =
+			new Vector2(pasreizejaisIzmersX,
+				1f*pasreizejaisIzmersY);
+
+	}
 
 	public void KreklaAtteli(bool vertiba)
 	{
